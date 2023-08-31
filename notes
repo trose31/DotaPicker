@@ -1,0 +1,15 @@
+53e34b0d-8d5c-4a04-8528-79ab386cd079 
+
+https://api.opendota.com/api/matches/271145478?api_key=53e34b0d-8d5c-4a04-8528-79ab386cd079
+https://api.opendota.com/api/metadata?api_key=53e34b0d-8d5c-4a04-8528-79ab386cd079
+https://api.opendota.com/api/publicMatches?api_key=53e34b0d-8d5c-4a04-8528-79ab386cd079
+
+
+7104283619
+
+7312808110
+
+random sample of roughly 208 million data points since april
+
+without key no cost
+https://api.opendota.com/api/publicMatches?less_than_match_id=7100000000
