@@ -2,11 +2,11 @@ In order to run the onnx file in the website's javascrtipt, the HTML must be lau
 
 To run the .py network training files:
 
-  Pytorch
-  JSON
-  Requests
-  Pandas
-  Numpy
+  Pytorch,
+  JSON,
+  Requests,
+  Pandas,
+  Numpy,
 
 are required.
 
