@@ -1,0 +1,1 @@
+The original file contains data from 400,000 matches and is 290MB, which is too big to upload to github.
