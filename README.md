@@ -1,4 +1,17 @@
-(In order to run the onnx file in the website's javascrtipt, the HTML must be launched as a live server (I did this through the Live Server extension to Visual Studio Code))
+In order to run the onnx file in the website's javascrtipt, the HTML must be launched as a live server (I did this through the Live Server extension to Visual Studio Code). No modules need be downloaded to run the HTML as the onnx interpreter is loaded from a remote location.
+
+To run the .py network training files:
+
+  Pytorch
+  JSON
+  Requests
+  Pandas
+  Numpy
+
+are required.
+
+
+  
 
 Dota 2 is a 5 versus 5 video game which begins with each player selecting one of 124 player characters that they will use during the match. While any team can win with any composition of characters, each character's unique playstyles and interactions often lead to games where one team is favoured from the outset. There are several picking assisstant tools on the internet (and one in the game's client) which suggest good characters based on the sum of the character's win probability when paired with each already selected character. These models only use pairwise comparisons as there are over 100^10 = 1e20 different possible team combinations and far fewer recorded matches at any skill level (roughly 1e10 overall). This is what led me to train a neural network to suggest characters based on all available information.
 
