@@ -1,14 +1,6 @@
 In order to run the onnx file in the website's javascrtipt, the HTML must be launched as a live server (I did this through the Live Server extension to Visual Studio Code). No modules need be downloaded to run the HTML as the onnx interpreter is loaded from a remote location.
 
-To run the .py network training files:
-
-  Pytorch,
-  JSON,
-  Requests,
-  Pandas,
-  Numpy,
-
-are required.
+To run the .py network training files: Pytorch, JSON, Requests, Pandas, Numpy, are required.
 
 
   
