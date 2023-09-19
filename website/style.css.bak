@@ -1,0 +1,191 @@
+body {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.type {
+	background-color: yellow;
+	height:280px;
+	width:440px;
+}
+
+.boxdisp {
+	background-color: green;
+	height: 80px;
+	width: 70px;
+	background-size: cover;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-image: url('images/neutral.jpg');
+}
+.boxpick {
+	position: absolute;
+	background-color: green;
+	height: 60px;
+	width: 36px;
+}
+
+#main {
+	position: absolute;
+	left: 330px;
+	width: 1260px;
+	top:50px;
+	height:2000px;
+	background-color: white;
+}
+
+#d0 {
+	position: absolute;
+	background-color: black;
+	left:50px;
+	top:30px;
+	width: 800px;
+	height: 100px;
+}
+h1 {
+	color: white;
+	font-family: 'Times New Roman', serif;
+	font-size: 45px;
+	position: absolute;
+	left: 40px;
+}
+#d1 {
+	position: absolute;
+	background-color: black;
+	left:70px;
+	top:150px;
+	width: 400px;
+	height: 120px;
+}
+#d2 {
+	position: relative;
+	background-color: black;
+	left:500px;
+	top:150px;
+	width: 460px;
+	height: 120px;
+}
+#d3 {
+	position: absolute;
+	background-color: black;
+	left:50px;
+	top:300px;
+	width: 900px;
+	height: 600px;
+}
+#strength {
+	position:absolute;
+	top:10px;
+	left:5px;
+}
+
+#agility {
+	position:absolute;
+	top:10px;
+	left:455px;
+}
+
+.r1 {	
+	position:absolute;
+	width: 436px;
+	height: 90px;
+	left: 2px;
+	background-color: blue;
+	top: 2px;
+}
+
+.r2 {
+	position:absolute;
+	width: 436px;
+	height: 90px;
+	left: 2px;
+	background-color: blue;
+	top: 96px;
+}
+.r3 {
+	position:absolute;
+	width: 436px;
+	height: 90px;
+	left: 2px;
+	background-color: blue;
+	top: 188px;
+}
+
+#am {
+	left:2px;
+	top:20px;
+}
+#arc {
+	left:40px;
+	top:20px;
+}
+#bs {
+	left:78px;
+	top:20px;
+}
+#bounty {
+	left:116px;
+	top:20px;
+}
+#clinkz {
+	left:154px;
+	top:20px;
+}
+#dr {
+	left:192px;
+	top:20px;
+}
+#ember {
+	left:230px;
+	top:20px;
+}
+#fv {
+	left:268px;
+	top:20px;
+}
+#gyro {
+	left:306px;
+	top:20px;
+}
+#hw {
+	left:344px;
+	top:20px;
+}
+#jug {
+	left:382px;
+	top:20px;
+}
+
+#intelligence {
+	position:absolute;
+	top:300px;
+	left:5px;
+}
+#universal {
+	position:absolute;
+	top:300px;
+	left:455px;
+}
+
+
+
+
+#d4 {
+	position: absolute;
+	background-color: black;
+	left:1000px;
+	top:110px;
+	width: 200px;
+	height: 800px;
+	overflow-y: scroll;
+}
+#d5 {
+	position: absolute;
+	background-color: black;
+	left:50px;
+	top:950px;
+	width: 1160px;
+	height: 350px;
+}

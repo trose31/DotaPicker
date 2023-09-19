@@ -1,0 +1,107 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Dota 2 Counter Pick Assistant </title>
+</head>
+<body>	
+	<div id="main">
+	
+	<div id="d0">
+		<h1 id="h"> DOTA PICKER</h1>
+	</div>
+	
+	<div id="d1">
+	<table>
+		<tr>
+		<td id="c1" class="boxdisp"></td>
+		<td id="c2" class="boxdisp"></td>
+		<td id="c3" class="boxdisp"></td>
+		<td id="c4" class="boxdisp"></td>
+		<td id="c5" class="boxdisp"></td>
+		</tr>
+</table>
+	<button id="radpick">Pick Radiant</button>
+	</div>
+	
+	<div id="d2">
+		<table>
+		<tr>
+		<td id="e1" class="boxdisp"></td>
+		<td id="e2" class="boxdisp"></td>
+		<td id="e3" class="boxdisp"></td>
+		<td id="e4" class="boxdisp"></td>
+		<td id="e5" class="boxdisp"></td>
+		</tr>
+</table>
+	<button id="dirpick">Pick Dire</button>
+	<button id="wipe">Reset</button>
+	</div>	
+	
+	<div id="d3">
+	<div id="strength" class="type">
+
+	</div>
+	<div id="agility" class="type">
+
+	<div class="r1">
+	<div id="am" class="boxpick"></div>
+	<div id="arc" class="boxpick"></div>
+	<div id="bs" class="boxpick"></div>
+	<div id="bounty" class="boxpick"></div>
+	<div id="clinkz" class="boxpick"></div>
+	<div id="dr" class="boxpick"></div>
+	<div id="ember" class="boxpick"></div>
+	<div id="fv" class="boxpick"></div>
+	<div id="gyro" class="boxpick"></div>
+	<div id="hw" class="boxpick"></div>
+	<div id="jug" class="boxpick"></div>
+	</div>
+	
+	<div class="r2">
+	<div id="luna" class="boxpick"></div>
+	<div id="dusa" class="boxpick"></div>
+	<div id="meepo" class="boxpick"></div>
+	<div id="mk" class="boxpick"></div>
+	<div id="morph" class="boxpick"></div>
+	<div id="ns" class="boxpick"></div>
+	<div id="pa" class="boxpick"></div>
+	<div id="pl" class="boxpick"></div>
+	<div id="razor" class="boxpick"></div>
+	<div id="riki" class="boxpick"></div>
+	<div id="sf" class="boxpick"></div>
+	</div>
+	
+	<div class="r3">
+	<div id="slark" class="boxpick"></div>
+	<div id="sniper" class="boxpick"></div>
+	<div id="spec" class="boxpick"></div>
+	<div id="ta" class="boxpick"></div>
+	<div id="tb" class="boxpick"></div>
+	<div id="tw" class="boxpick"></div>
+	<div id="ursa" class="boxpick"></div>
+	<div id="viper" class="boxpick"></div>
+	<div id="weaver" class="boxpick"></div>
+	</div>
+	
+	
+	</div>
+	<div id="intelligence" class="type">
+	</div>	
+	<div id="universal" class="type">
+	</div>
+	</div>
+
+	<div id="d4">
+	</div>
+	
+	<div id="d5">
+	</div>
+	
+	<div id="d6">
+	</div>
+	</div>
+	
+</body>
+
+<script type="text/javascript" src="js/evaluationalg.js"></script>
+</html>
