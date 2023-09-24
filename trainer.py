@@ -26,18 +26,22 @@ class Net(nn.Module):
         self.dropout = nn.Dropout(0.25)         #Dropout layers help train the network on partial input, as it will be for the majority of use cases
 
     def forward(self, x):
-        x = self.fc1(x)
-        x = self.relu(x)
-        x = self.dropout(x)
-        x = self.fc2(x)
-        x = self.relu(x)
-        x = self.dropout(x)
-        x = self.fc4(x)
-        x = self.relu(x)
-        x = self.fc5(x)
-        x = self.soft(x)
-        output = x
-        return output
+        residual = x
+        out = self.fc1(x)
+        out = self.relu(out)
+        out = self.dropout(out)
+        out += residual
+        
+        out = self.fc2(out)
+        out = self.relu(out)
+        out = self.dropout(out)
+        
+        out = self.fc4(out)
+        out = self.relu(out)
+        out = self.fc5(out)
+        out = self.soft(out)
+
+        return out
 
 
 def train(args, model, device, train_loader, optimizer, epoch):
