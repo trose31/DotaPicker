@@ -1,10 +1,4 @@
-Functionality Info:\
-\
-To run the onnx file in the website's javascrtipt, the HTML must be launched as a live server (I did this through the Live Server extension to Visual Studio Code).\
-\
-No modules need be downloaded to run the HTML as the onnx interpreter is loaded from dropbox.\
-\
-Python 3.8+ required to run trainer.py.  
+To run the onnx file in the website's javascrtipt, the HTML must be launched as a live server (I did this through the Live Server extension to Visual Studio Code). Python 3.8+ required to run trainer.py.  
 \
 \
 \
